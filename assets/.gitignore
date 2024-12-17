@@ -1,5 +1,14 @@
-node_modules
+node_modules/*
 package-lock.json
+
+!node_modules/bootstrap/
+node_modules/bootstrap/*
+
+!node_modules/bootstrap/dist/
+node_modules/bootstrap/dist/*
+
+!node_modules/bootstrap/dist/css/
+node_modules/bootstrap/dist/css/*
 
 !node_modules/bootstrap/dist/css/bootstrap.min.css
 !node_modules/bootstrap/dist/css/bootstrap.min.css.map
